@@ -1,5 +1,6 @@
 {
     "version": "1.0.5",
-    "message": "Đã có phiên bản mới. Vui lòng cập nhật.",
+    "message_vi": "Đã có phiên bản mới. Vui lòng cập nhật.",
+    "message_en": "Đã có phiên bản mới. Vui lòng cập nhật.",
     "default_home_page": "https://kodi.thuviencine.live"
 }
