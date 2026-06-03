@@ -8,9 +8,9 @@
     <import addon="script.module.simplecache" version="2.0.2"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="main.py">
-  <extension point="xbmc.service" library="service.py" start="startup" />
     <provides>video</provides>
   </extension>
+  <extension point="xbmc.service" library="service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">ThuVienCine Kodi Addon</summary>
     <description lang="en_GB">Xem phim trực tuyến từ nguồn thuviencine.com</description>
