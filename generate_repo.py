@@ -22,7 +22,7 @@ SRC_DIR = os.path.join(REPO_DIR, "src")
 # Addon directories (inside src/)
 ADDON_DIRS = [
     "plugin.video.thuviencine",
-    "repo_thuviencine",
+    "repository.thuviencine",
 ]
 
 # Files/directories to exclude from zip
@@ -175,7 +175,7 @@ def main():
     # Copy repo zip to root for manual Kodi install
     print()
     for addon_dir, (addon_id, version, _) in addon_infos:
-        if not addon_id.startswith(("repo_", "plugin")):
+        if not addon_id.startswith(("repository", "plugin")):
             continue
         zip_filename = f"{addon_id}-{version}.zip"
         src = os.path.join(REPO_DIR, addon_id, zip_filename)

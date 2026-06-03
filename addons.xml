@@ -39,8 +39,8 @@
     </assets>
   </extension>
 </addon>
-<addon id="repo_thuviencine" name="THUVIENCINE Repository" version="0.0.1" provider-name="CineTV">
-	<extension point="xbmc.addon.repository" name="repo_thuviencine">
+<addon id="repository.thuviencine" name="ThuVienCine Repository" version="0.0.1" provider-name="CineTV">
+	<extension point="xbmc.addon.repository" name="repository.thuviencine">
 		<dir>
 			<info compressed="false">https://thuviencine.github.io/addons.xml</info>
 			<checksum>https://thuviencine.github.io/addons.xml.md5</checksum>
@@ -50,7 +50,7 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>ThuVienCine Repository</summary>
 		<description>Repository cho ThuVienCine</description>
-		<disclaimer>repo_thuviencine</disclaimer>
+		<disclaimer>repository.thuviencine</disclaimer>
 		<platform>all</platform>
 		<assets>
 			<icon>icon.png</icon>
