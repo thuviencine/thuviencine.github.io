@@ -7,8 +7,8 @@
     <import addon="script.module.beautifulsoup4" version="4.12.2"/>
     <import addon="script.module.simplecache" version="2.0.2"/>
   </requires>
-  <extension point="xbmc.service" library="service.py" start="startup" />
   <extension point="xbmc.python.pluginsource" library="main.py">
+  <extension point="xbmc.service" library="service.py" start="startup" />
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
