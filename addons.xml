@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.thuviencine" name="ThuVienCine" version="0.0.6" provider-name="CineTV">
+<addon id="plugin.video.thuviencine" name="ThuVienCine" version="0.0.5" provider-name="CineTV">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests" version="2.31.0"/>
@@ -22,7 +22,6 @@
     <!-- <website>https://thuviencine.github.io/</website> -->
     <!-- <source>https://thuviencine.github.io/</source> -->
     <news>
-    Test Update
     [0.0.5] - 2026-05-27
     - Fix hiển thị không đủ file trong folder Fshare.
     - Hiển thị thông báo khi có phiên bản mới.
