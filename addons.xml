@@ -39,7 +39,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="repo_thuviencine" name="THUVIENCINE" version="0.0.1" provider-name="bioidaika">
+<addon id="repo_thuviencine" name="THUVIENCINE Repository" version="0.0.1" provider-name="CineTV">
 	<extension point="xbmc.addon.repository" name="repo_thuviencine">
 		<dir>
 			<info compressed="false">https://thuviencine.github.io/addons.xml</info>
